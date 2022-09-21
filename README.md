@@ -2,7 +2,7 @@
 Cypress Automation framework for Typescript based apps using BDD-Gherkin style (Cucumber) 
 
 ## Purpose of the project
-Cypress awesomness and its power can be enhanced if it is integerated with BDD (Cucumber) so that the tests can be written in natural language and test definitions can be written in Typescript. This project provides three different types of reporting features. with basic executable tests to demonstrate how Cypress  + Cucumber works hand in hand.
+Cypress awesomness and its power can be enhanced if it is integerated with BDD (Cucumber) so that the tests can be written in natural language and test definitions can be written in Typescript. This project provides two different types of reporting features. with basic executable tests to demonstrate how Cypress  + Cucumber works hand in hand.
 
 ### Why cypress with BDD Framework
 Cypress automation tests can be written directly in Typescript or Javascript and easy test case writing (written format can be understood by anyone). This project also provides buisness oriented reporting of tests in natural language that can be understood by different stakeholders (Devs + QAs + Buisness Persons).
@@ -36,13 +36,12 @@ Run the Cypress Test in headless mode
 npx run cypress run --e2e
 ```
 ## Test Reports
-This project provides three different types of reporting features.
+This project provides two different types of reporting features.
 - Command line output
 - HTML Reporting using Cucumber
-- Cypress Dashboard Reporting
 
 ### Command line output
-When tests are executed simply using "npm run cypress-run", the command line prints the following output after the successfull execution of tests.
+When tests are executed simply using "npx run cypress run --e2e", the command line prints the following output after the successfull execution of tests.
 
 ![160298061-917d7b2a-6bec-4d8d-80f0-8a9568341870](https://user-images.githubusercontent.com/41230361/160299125-80d2c0da-1290-4fc3-bae1-44ee000edd34.jpg)
 
