@@ -1,11 +1,11 @@
-# cypress-cucumber-typescript
+# cypress-v10-cucumber-typescript-html-reporter
 Cypress Automation framework for Typescript based apps using BDD-Gherkin style (Cucumber) 
 
 ## Purpose of the project
-Cypress awesomness and its power can be enhanced if it is integerated with BDD (Cucumber) so that the tests can be written in natural language and test definitions can be written in Typescript. This project combines a lot of different features into single one repo with basic executable tests to demonstrate how **Cypress + Angular (Typescript) + Cucumber** works hand in hand.
+Cypress awesomness and its power can be enhanced if it is integerated with BDD (Cucumber) so that the tests can be written in natural language and test definitions can be written in Typescript. This project provides three different types of reporting features. with basic executable tests to demonstrate how Cypress  + Cucumber works hand in hand.
 
 ### Why cypress with BDD Framework
-Cypress automation tests can be written directly in Typescript or Javascript, but integerating it with BDD gives us a **"seperation of concern"** ability. This means that the automation tests (business usecases) **will not be changed and impacted** at all by the underlying automation framework (Cypress/Protractor e.t.c). This project also provides buisness oriented reporting of tests in natural language that can be understood by different stakeholders (Devs + QAs + Buisness Persons).
+Cypress automation tests can be written directly in Typescript or Javascript and easy test case writing (written format can be understood by anyone). This project also provides buisness oriented reporting of tests in natural language that can be understood by different stakeholders (Devs + QAs + Buisness Persons).
 
 ## Versions
 - Angular: 13.3.0
