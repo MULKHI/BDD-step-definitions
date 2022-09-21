@@ -47,7 +47,7 @@ When tests are executed simply using "npx run cypress run --e2e", the command li
 
 ### Cucumber HTML Test Report
 ```
-npm run cypress-report
+node generate-cucumber-html-reporter.js
 ```
 
 An HTML report is generated in the cypress/reports directory that gives the following output. 
