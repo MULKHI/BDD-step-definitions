@@ -7,26 +7,33 @@ Cypress awesomness and its power can be enhanced if it is integerated with BDD (
 ### Why cypress with BDD Framework
 Cypress automation tests can be written directly in Typescript or Javascript and easy test case writing (written format can be understood by anyone). This project also provides buisness oriented reporting of tests in natural language that can be understood by different stakeholders (Devs + QAs + Buisness Persons).
 
-## Versions
-- Angular: 13.3.0
-- Node: 16.10.0
-- Cypress: 9.5.2
-- Cucumber Version: 4.3.1
 
-## Install
+## Installation
 ```
-npm install
+npm install @badeball/cypress-cucumber-preprocessor
+```
+```
+npm install typescript
+```
+```
+npm install @cypress/webpack-preprocessor
+```
+```
+npm install ts-loader
+```
+```
+npm install webpack
 ```
 ## Execute Tests
 Run the Cypress Tests in headmode
 ```
-npm run cypress-open
+npx cypress open
 ```
 Or
 
 Run the Cypress Test in headless mode
 ```
-npm run cypress-run
+npx run cypress run --e2e
 ```
 ## Test Reports
 This project provides three different types of reporting features.
