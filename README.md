@@ -43,7 +43,7 @@ This project provides two different types of reporting features.
 ### Command line output
 When tests are executed simply using "npx run cypress run --e2e", the command line prints the following output after the successfull execution of tests.
 
-![160298061-917d7b2a-6bec-4d8d-80f0-8a9568341870](https://user-images.githubusercontent.com/41230361/160299125-80d2c0da-1290-4fc3-bae1-44ee000edd34.jpg)
+![Screenshot (311)](https://user-images.githubusercontent.com/80143004/191597604-3c1f2f09-77e9-4a87-bdff-8067e548c4ce.png)
 
 ### Cucumber HTML Test Report
 ```
