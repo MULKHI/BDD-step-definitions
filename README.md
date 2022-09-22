@@ -41,7 +41,7 @@ This project provides two different types of reporting features.
 - HTML Reporting using Cucumber
 
 ### Command line output
-When tests are executed simply using "npx run cypress run --e2e", the command line prints the following output after the successfull execution of tests.
+When tests are executed simply using "npx run cypress run --e2e", the command line prints the following output after the successfull execution of tests, will get a report in the form of a video if Passing, and will get a report in the form of a video + screenshot if Failing.
 
 ![Screenshot (311)](https://user-images.githubusercontent.com/80143004/191597604-3c1f2f09-77e9-4a87-bdff-8067e548c4ce.png)
 
